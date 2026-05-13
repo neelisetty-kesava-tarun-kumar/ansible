@@ -1,0 +1,36 @@
+- name: "Kesava"
+  dob: "1995-01-01"
+  mobile-number: "1234567890"
+  addresses:
+  - flat-number: "101"
+    building-name: "Sunshine Apartments"
+    street: "MG Road"
+    city: "Bangalore"
+    state: "Karnataka"
+    country: "India"
+  
+  - flat-number: "202"
+    building-name: "Greenwood Residency"
+    street: "Brigade Road"
+    city: "Bangalore"
+    state: "Karnataka"
+    country: "India"
+  
+- name: "Ananya"
+  dob: "1996-02-15"
+  mobile-number: "0987654321"
+  addresses:
+  - flat-number: "303"
+    building-name: "Blue Sky Apartments"
+    street: "Indiranagar"
+    city: "Bangalore"
+    state: "Karnataka"
+    country: "India"
+  
+  - flat-number: "404"
+    building-name: "Redwood Residency"
+    street: "Koramangala"
+    city: "Bangalore"
+    state: "Karnataka"
+    country: "India"
+
