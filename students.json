@@ -3,9 +3,6 @@
   "DOB": "2000-01-01",
   "Email": "ntarun1894@gmail.com",
 
-  /* "Address": "Hyderabad, Telangana, India" */
-
-  /* List of Objects */
   "Addresses": [
     {
       "Type": "Home",
