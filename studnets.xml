@@ -1,0 +1,17 @@
+<!-- Student Information -->
+
+<Student>
+    <students>
+        <Name>Kesava</Name>
+        <DOB>2004-09-18</DOB>
+        <Email>ntarun1894@gmail.com</Email>
+        <Address>67-136/15b, NSM School Back side, patamata, Vijayawada, Andhra Pradesh, 520010</Address> <!-- It is field means all details in one line.-->
+    </students>
+
+    <students>
+        <Name>Neelisetty</Name>
+        <DOB>2004-09-18</DOB>
+        <Email>ntarun1894@gmail.com</Email>
+        <Address>67-136/15b, NSM School Back side, patamata, Vijayawada, Andhra Pradesh, 520010</Address> <!-- It is field means all details in one line.-->
+    </students>
+</Student>

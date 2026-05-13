@@ -1,0 +1,26 @@
+{
+  "Name": "Kesava",
+  "DOB": "2000-01-01",
+  "Email": "ntarun1894@gmail.com",
+
+  /* "Address": "Hyderabad, Telangana, India" */
+
+  /* List of Objects */
+  "Addresses": [
+    {
+      "Type": "Home",
+      "Street": "123 Main St",
+      "City": "Hyderabad",
+      "State": "Telangana",
+      "Zip": "500001"
+    },
+    {
+      "Type": "Work",
+      "Street": "456 Corporate Blvd",
+      "City": "Hyderabad",
+      "State": "Telangana",
+      "Zip": "500002"
+    }
+  ],
+  "Skills": ["Java", "Python", "Ansible", "Docker"]
+}
