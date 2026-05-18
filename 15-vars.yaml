@@ -3,5 +3,6 @@
   connection: local
   tasks:
     - name: Command module test with variables
-      ansible.builtin.command: cat /etc/passed | grep root
+      #ansible.builtin.command: cat /etc/passed | grep root #In command module we cannot use pipes and redirections
+      ansible.builtin.shell: cat /etc/passwd | grep root
       register: users_output
