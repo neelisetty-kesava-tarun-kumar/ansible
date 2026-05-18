@@ -1,0 +1,24 @@
+- name: Demo of datatypes
+  hosts: local
+  connection: local
+  vars:
+    PROGRAM: "DevSecOps with AWS, 88S Batch" #String datatype
+    DURATION: 2 #Integer datatype
+    IS_LIVE: true #Boolean datatype
+    DETAILS: #Mapping datatype
+      MONTHS_TIME: 4
+      TRAINER_NAME: "Kesava"
+    TOPICS: #List datatype, It will start from either - or []
+      - Ansible
+      - Jenkins
+      - Docker
+      - Kubernetes
+  tasks:
+    - name: Print datatypes
+      ansible.builtin.debug:
+        msg: |
+          Program name is {{PROGRAM}}
+          Duration is {{DURATION}} hours
+          Is the course live? {{IS_LIVE}}
+          Course details are {{DETAILS}}
+          Course topics are {{TOPICS}}
