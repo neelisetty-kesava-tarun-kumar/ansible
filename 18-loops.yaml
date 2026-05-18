@@ -12,4 +12,3 @@
         - { name: "mysql", state: "present" }
         - { name: "nodejs", state: "present" }
         - { name: "git", state: "present" }
-        - { name: "python3", state: "absent" }
