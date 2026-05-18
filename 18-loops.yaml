@@ -1,0 +1,15 @@
+- name: Install multiple packages using loops
+  hosts: local
+  connection: local
+  become: true
+  tasks:
+    - name: Install Packages
+      ansible.builtin.package:
+        name: "{{ item.name }}"
+        state: "{{ item.state }}"
+      loop: # List datatype
+        - { name: "nginx", state: "absent" } #Map of the dictisonary
+        - { name: "mysql", state: "present" }
+        - { name: "nodejs", state: "present" }
+        - { name: "git", state: "present" }
+        - { name: "python3", state: "absent" }
