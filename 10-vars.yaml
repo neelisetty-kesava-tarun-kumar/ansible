@@ -4,14 +4,17 @@
   vars:
     name: "Ansible from PLAY"
   vars_files:
+  #1. File variables have the lowest preference than play level, task level and prompt variabless
     - course.yaml
   vars_prompt:
+  #2. Prompt variables have the highest preference than all other variables
     - name: name
       prompt: "Enter the name"
       private: false
   tasks:
     - name: Print the name variable
       vars:
+      #3. Task level variables have the highest preference than play level and file variables
         name: "Ansible from TASK"
       ansible.builtin.debug:
         msg: "Hi {{name}}, Hello from Ansible!"
