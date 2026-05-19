@@ -14,7 +14,7 @@
         { "key": "component", "value": "catalogue" },
       ]
     course: Welcome to DevSecOps, Ansible Session
-    myIP: 192.36.07.2
+    myIP: 172.31.30.228
   tasks:
     - name: Greeting message
       ansible.builtin.debug:
