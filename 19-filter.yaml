@@ -13,6 +13,7 @@
         { "key": "project", "value": "roboshop" },
         { "key": "component", "value": "catalogue" },
       ]
+    course: Welcome to DevSecOps, Ansible Session
   tasks:
     - name: Greeting message
       ansible.builtin.debug:
