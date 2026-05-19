@@ -13,5 +13,5 @@
         msg: "{{ user_output }}"
 
     - name: Creating user
-      ansible.builtin.debug: useradd roboshop
+      ansible.builtin.command: useradd roboshop
       when: user_output.rc != 0
