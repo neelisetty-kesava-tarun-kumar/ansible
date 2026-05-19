@@ -1,6 +1,7 @@
 - name: Demo on error handling
   hosts: local
   connection: local
+  become: yes
   tasks:
     - name: Checking the user exist or not
       ansible.builtin.command: id roboshop
