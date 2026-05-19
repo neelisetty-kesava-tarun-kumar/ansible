@@ -14,6 +14,7 @@
         { "key": "component", "value": "catalogue" },
       ]
     course: Welcome to DevSecOps, Ansible Session
+    myIP: 256.255.256.254
   tasks:
     - name: Greeting message
       ansible.builtin.debug:
@@ -46,3 +47,7 @@
     - name: Convert upper case to lower case
       ansible.builtin.debug:
         msg: "{{ course | lower }}"
+
+    - name: Checking the IP address is correct or not
+      ansible.builtin.debug:
+        msg: "{{ myIP | ansible.utils.ipv4 }}"
